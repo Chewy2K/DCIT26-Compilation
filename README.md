@@ -10,7 +10,7 @@ Emerging Technologies
 * https://snack.expo.io/@username/lab5
 * https://snack.expo.io/@chewee2k/laboratory6
 
-## Members (BSCS 3‐X)
+## Members (BSCS 3‐3)
 * Elivera, Bobby Joshua A.
 * Quiboloy, Almerson.
 * Terrible, JC.
