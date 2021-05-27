@@ -1,0 +1,21 @@
+    <View style= {globalStyles.container}>
+    <View>
+      {isLoading ? <ActivityIndicator size="large" color="#0008ff" /> : (
+    <View>
+      <TouchableOpacity onPress={() => navigation.navigate('Profile', data)}>
+    <Image style = {globalStyles.homeImage} source ={data.picture.large} /> </TouchableOpacity>
+      <Text style={globalStyles.homeText}>{data.name.first} {data.name.last}</Text>
+    </View>
+  )}
+    <View style={{ height: 80,  alignItems: 'center'}}>
+      {isLoading ? true : (
+    <View>
+      <Button title ="Random User" color= "#0d98ba" onPress={() => {fetchRandomData();}  } />
+
+</View>
+)} 
+</View>
+</View>
+</View>
+  );
+};
